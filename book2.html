@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>الساجد والمساجد - د. محمد مهران</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="icon" href="POrsonal.lpg.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <div class="logo-circle"><img src="POrsonal.lpg.jpeg" alt=""></div>
+                <span class="brand-text fw-bolder">MOHAMMED MAHRAN</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#home"><i class="fa-regular fa-house ms-1"></i>
+                            الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="index.html#contact"><i
+                                class="fa-regular fa-address-card ms-1"></i> اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="content">
+            <h1>د. <span class="text-primary">محمد</span> مهران</h1>
+            <p class="typing-text fs-3 text-white-50">
+                <span id="heroTyping"></span>
+            </p>
+            <a href="#contact">
+                <button class="btn-contact btn btn-primary rounded-pill px-4 py-2 mt-3">تواصل معي</button>
+            </a>
+        </div>
+        <div class="img-container">
+            <img src="image.png" alt="د. محمد مهران" class="profile-img">
+        </div>
+    </header>
+    <div class="container py-5 mt-5" id="home">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <img src="image copy.png" alt="الساجد والمساجد" class="img-fluid rounded-4 shadow">
+            </div>
+            <div class="col-md-7">
+                <h1 class="display-4 fw-bold text-primary">الساجد والمساجد</h1>
+                <p class="lead text-white-50">تعليم الدين وهدايه الناس</p>
+                <hr class="border-light">
+                <p class="fs-5">تفاصيل حول محتوى الكتاب: رؤية شاملة لأهمية المساجد في تربية النفوس وتعزيز القيم الدينية
+                    في المجتمع المعاصر...</p>
+                <a href="index.html#books" class="btn btn-outline-light rounded-pill mt-4">
+                    <i class="fa-solid fa-arrow-right ms-2"></i> العودة للإصدارات
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-black text-white py-5 mt-5 border-top border-light border-opacity-10">
+        <div class="container">
+            <div class="row g-4 text-center text-md-start">
+
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+                        <div class="logo-circle me-3">
+                            <img src="POrsonal.lpg.jpeg" alt="Logo" class="img-fluid rounded-circle">
+                        </div>
+                        <span class="brand-text fs-4 fw-bold px-3">د. محمد مهران</span>
+                    </div>
+                    <p class="text-white-50">موقع رسمي مخصص لنشر الفكر والمعرفة الأدبية والثقافية.</p>
+                </div>
+
+                <div class="col-md-4" id="contact">
+                    <h5 class="text-primary mb-3 fw-bold">روابط سريعة</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home"
+                                class="text-white text-decoration-none hover-primary">الرئيسية</a></li>
+                        <li class="mb-2"><a href="mailto:Mahran.bank@gmail.com"
+                                class="text-white text-decoration-none hover-primary">اتصل
+                                بنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="text-primary mb-3 fw-bold">تابعنا</h5>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 pt-4 border-top border-light border-opacity-10">
+                <p class="text-white-50 mb-0">&copy; 2026 جميع الحقوق محفوظة لـ <span class="text-primary">د. محمد
+                        مهران</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const typingTextElement = document.getElementById("heroTyping");
+            const phrases = [
+                "أستاذ محاضر",
+                "كاتب متخصص",
+                "باحث في الدراسات الثقافية",
+                "باحث في سعادة الإنسان",
+                "وصناعة الوعي الثقافي",
+                "صانع الفكر... وباحث في سعادة الإنسان وصناعة الوعي الثقتفي"
+            ];
+            let phraseIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+
+            function type() {
+                const currentPhrase = phrases[phraseIndex];
+
+                if (isDeleting) {
+                    typingTextElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typingTextElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+
+                let typeSpeed = isDeleting ? 100 : 120;
+
+                if (!isDeleting && charIndex === currentPhrase.length) {
+                    typeSpeed = 2000;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    phraseIndex = (phraseIndex + 1) % phrases.length;
+                    typeSpeed = 500;
+                }
+
+                setTimeout(type, typeSpeed);
+            }
+
+            type();
+        });
+    </script>
+
+    <canvas id="culturalCanvas"></canvas>
+    <script src="bootstrap.bundle.min.js"> </script>
+    <script src="mail.js"></script>
+
+</body>
+
+</html>

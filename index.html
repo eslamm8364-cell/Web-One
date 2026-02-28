@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mohammed Mahran</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="icon" href="POrsonal.lpg.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div class="logo-circle"><img src="POrsonal.lpg.jpeg" alt=""></div>
+                <span class="brand-text fw-bolder">MOHAMMED MAHRAN</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#home"><i class="fa-regular fa-house ms-1"></i> الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#About"><i class="fa-solid fa-circle-info ms-1"></i> عن
+                            الدكتور</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#contact"><i class="fa-regular fa-address-card ms-1"></i> اتصل
+                            بنا</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a class="btn custom-btn" href="#books">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>عرض الكتب</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="content">
+            <h1>د. <span class="text-primary">محمد</span> مهران</h1>
+            <p class="typing-text fs-3 text-white-50">
+                <span id="heroTyping"></span>
+            </p>
+            <a href="#contact">
+                <button class="btn-contact btn btn-primary rounded-pill px-4 py-2 mt-3">تواصل معي</button>
+            </a>
+        </div>
+        <div class="img-container">
+            <img src="image.png" alt="د. محمد مهران" class="profile-img">
+        </div>
+    </header>
+
+    <section id="About" class="py-5 bg-dark text-white text-end">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <h2 class="fw-bold mb-4">من هو <span class="text-primary">د. محمد مهران</span>؟</h2>
+                    <p class="lead text-white-50">أستاذ محاضر وكاتب متخصص في الدراسات الثقافية، يسعى من خلال مؤلفاته إلى
+                        تقديم رؤية نقدية معاصرة للأدب والمجتمع.</p>
+
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-3 d-flex align-items-center justify-content-end">
+                            <span>حاصل على دكتوراه في النقد الأدبي</span>
+                            <i class="fa-solid fa-circle-check text-primary ms-3 fs-5"></i>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center justify-content-end">
+                            <span>مؤلف لأكثر من 10 كتب في الفلسفة والاجتماع</span>
+                            <i class="fa-solid fa-circle-check text-primary ms-3 fs-5"></i>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center justify-content-end">
+                            <span>محاضر في العديد من الجامعات العربية</span>
+                            <i class="fa-solid fa-circle-check text-primary ms-3 fs-5"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 order-md-1">
+                    <div class="about-card p-5 bg-black-50 shadow-lg rounded-4 border border-light border-opacity-10">
+                        <h4 class="text-primary fw-bold mb-3">
+                            <i class="fa-solid fa-quote-right ms-2"></i> رؤيتنا
+                        </h4>
+                        <p class="fs-5 fst-italic text-white-75 mb-0">
+                            "الكلمة هي الجسر الذي نعبر به نحو وعي جديد ومستقبل أكثر استنارة."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="stats-section py-5 bg-dark text-white text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-5 text-white">إنجازات و <span class="text-primary">أرقام</span></h2>
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-3 my-4 card-item">
+                    <div class="stat-item p-4 rounded-4 bg-black-50 h-100">
+                        <i class="fa-solid fa-book-open fa-3x text-primary mb-3"></i>
+                        <h2 class="fw-bolder counter fs-4 ">+10</h2>
+                        <p class="text-white-50 fw-bold text-uppercase m-0">مؤلف أدبي</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 my-4 card-item">
+                    <div class="stat-item p-4 rounded-4 bg-black-50 h-100">
+                        <i class="fa-solid fa-microphone-lines fa-3x text-primary mb-3"></i>
+                        <h2 class="fw-bolder counter fs-4 ">+300</h2>
+                        <p class="text-white-50 fw-bold text-uppercase m-0">محاضرة أكاديمية</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 my-4 card-item">
+                    <div class="stat-item p-4 rounded-4 bg-black-50 h-100">
+                        <i class="fa-solid fa-award fa-3x text-primary mb-3"></i>
+                        <h2 class="fw-bolder counter fs-4 ">+15</h2>
+                        <p class="text-white-50 fw-bold text-uppercase m-0">جائزة تقديرية</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 my-4 card-item">
+                    <div class="stat-item p-4 rounded-4 bg-black-50 h-100">
+                        <i class="fa-solid fa-users fa-3x text-primary mb-3"></i>
+                        <h2 class="fw-bolder counter fs-4 ">+1k</h2>
+                        <p class="text-white-50 fw-bold text-uppercase m-0">قارئ مستفيد</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="books" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-white display-5">أحدث <span class="text-primary">الإصدارات</span></h2>
+                <p class="text-white-50">نخبة من المؤلفات الفكرية والأدبية</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card bg-black border-0 shadow rounded-4 overflow-hidden zoom-effect hover-shadow h-100">
+                        <div class="card-img-wrapper" style="height: 300px; overflow: hidden;">
+                            <img src="Iq.jpg.jpeg" class="w-100 h-100" style="object-fit: cover;" alt="اسم الكتاب">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4 text-center">
+                            <h5 class="card-title fw-bold text-white fs-4"> الذكاء المعرفي</h5>
+                            <p class="card-text text-white-50 flex-grow-1">كتاب متخصص لطلبه ثانوي العام</p>
+                            <a href="book1.html" class="btn btn-outline-primary w-100 rounded-pill mt-3">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card bg-black border-0 shadow rounded-4 overflow-hidden zoom-effect hover-shadow h-100">
+                        <div class="card-img-wrapper" style="height: 300px; overflow: hidden;">
+                            <img src="image copy.png" class="w-100 h-100" style="object-fit: cover;" alt="اسم الكتاب">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4 text-center">
+                            <h5 class="card-title fw-bold text-white fs-4"> الساجد والمساجد</h5>
+                            <p class="card-text text-white-50 flex-grow-1">تعليم الدين وهدايه الناس</p>
+                            <a href="book2.html" class="btn btn-outline-primary w-100 rounded-pill mt-3">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card bg-black border-0 shadow rounded-4 overflow-hidden zoom-effect hover-shadow h-100">
+                        <div class="card-img-wrapper" style="height: 300px; overflow: hidden;">
+                            <img src="WhatsApp Image 2026-02-28 at 1.15.57 PM (1).jpeg" class="w-100 h-100"
+                                style="object-fit: cover;" alt="اسم الكتاب">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4 text-center">
+                            <h5 class="card-title fw-bold text-white fs-4"> الذكاء المعرفي</h5>
+                            <p class="card-text text-white-50 flex-grow-1">افضل نسخه من المعرفه</p>
+                            <a href="book3.html" class="btn btn-outline-primary w-100 rounded-pill mt-3">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card bg-black border-0 shadow rounded-4 overflow-hidden zoom-effect hover-shadow h-100">
+                        <div class="card-img-wrapper" style="height: 300px; overflow: hidden;">
+                            <img src="WhatsApp Image 2026-02-28 at 1.15.57 PM (2).jpeg" class="w-100 h-100"
+                                style="object-fit: cover;" alt="اسم الكتاب">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4 text-center">
+                            <h5 class="card-title fw-bold text-white fs-4">شفره العلاقات الزوجيه</h5>
+                            <p class="card-text text-white-50 flex-grow-1">تفاصيل البيوت السعيده</p>
+                            <a href="book4.html" class="btn btn-outline-primary w-100 rounded-pill mt-3">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card bg-black border-0 shadow rounded-4 overflow-hidden zoom-effect hover-shadow h-100">
+                        <div class="card-img-wrapper" style="height: 300px; overflow: hidden;">
+                            <img src="WhatsApp Image 2026-02-28 at 2.01.06 PM.jpeg" class="w-100 h-100"
+                                style="object-fit: cover;" alt="اسم الكتاب">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4 text-center">
+                            <h5 class="card-title fw-bold text-white fs-4"> فقه الحروف </h5>
+                            <p class="card-text text-white-50 flex-grow-1">جماليات اللغه العربيه</p>
+                            <a href="book5.html" class="btn btn-outline-primary w-100 rounded-pill mt-3">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section id="services" class="py-5 text-end">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5">مجالات <span class="text-primary">التخصص</span></h2>
+            <div class="row g-4">
+                <div class="col-md-4 my-3">
+                    <div class="service-box p-4 border rounded-4 shadow-sm h-100">
+                        <i class="fa-solid fa-pen-nib fa-2x text-primary mb-3"></i>
+                        <h4 class="fw-bold">النقد الأدبي</h4>
+                        <p class="text-muted">تقديم قراءات نقدية عميقة للنصوص الأدبية والمعاصرة بأسلوب أكاديمي رصين.</p>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-4 my-3">
+                    <div class="service-box p-4 border rounded-4 shadow-sm h-100">
+                        <i class="fa-solid fa-microphone-lines fa-2x text-primary mb-3"></i>
+                        <h4 class="fw-bold">المحاضرات العامة</h4>
+                        <p class="text-muted">تقديم ندوات ومحاضرات فكرية في مختلف المحافل الثقافية والجامعية.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="service-box p-4 border rounded-4 shadow-sm h-100">
+                        <i class="fa-solid fa-book-open-reader fa-2x text-primary mb-3"></i>
+                        <h4 class="fw-bold">الإشراف الفكري</h4>
+                        <p class="text-muted">الإشراف على المشاريع البحثية والكتب الثقافية لضمان جودة المحتوى الفكري.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="service-box p-4 border rounded-4 shadow-sm h-100">
+                        <i class="fa-solid fa-spell-check fa-2x text-primary mb-3"></i>
+                        <h4 class="fw-bold">التدقيق اللغوي</h4>
+                        <p class="text-muted">مراجعة النصوص وتدقيقها لغويًا ونحويًا لضمان سلامة اللغة ورصانة الأسلوب.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3">
+                    <div class="service-box p-4 border rounded-4 shadow-sm h-100">
+                        <i class="fa-solid fa-language fa-2x text-primary mb-3"></i>
+                        <h4 class="fw-bold">الترجمة التخصصية</h4>
+                        <p class="text-muted">ترجمة المواد الفكرية والأكاديمية من وإلى اللغات الأجنبية بدقة مع الحفاظ
+                            على السياق.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3">
+                    <div class="service-box p-4 border rounded-4 shadow-sm h-100">
+                        <i class="fa-solid fa-file-signature fa-2x text-primary mb-3"></i>
+                        <h4 class="fw-bold">صياغة المحتوى</h4>
+                        <p class="text-muted">كتابة مقالات وورقات بحثية متخصصة في المجالات الثقافية والفكرية.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="files" class="py-5 bg-black">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-white display-5">ملفات <span class="text-primary">ومؤلفات</span></h2>
+                <p class="text-white-50">يمكنك تحميل الملفات التالية بصيغة PDF</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-6 col-lg-3">
+                    <div
+                        class="card bg-dark text-white border border-light border-opacity-10 h-100 p-4 rounded-4 text-center hover-shadow">
+                        <i class="fa-solid fa-file-pdf fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">أغلفة الكتب - الجزء الأول</h5>
+                        <p class="text-white-50 small">ملف شامل لأغلفة إصدارات 2025</p>
+                        <a href="أغلفة الكتب د. مهران شامل ك 2025_20260219_161702_0000.pdf" download
+                            class="btn btn-outline-primary rounded-pill mt-auto">
+                            <i class="fa-solid fa-download ms-2"></i> تحميل الملف
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div
+                        class="card bg-dark text-white border border-light border-opacity-10 h-100 p-4 rounded-4 text-center hover-shadow">
+                        <i class="fa-solid fa-file-pdf fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">أغلفة الكتب - الجزء الثاني</h5>
+                        <p class="text-white-50 small">ملف شامل لأغلفة إصدارات 2025</p>
+                        <a href="أغلفة الكتب د. مهران شامل ك 2025_20260219_161728_0000.pdf" download
+                            class="btn btn-outline-primary rounded-pill mt-auto">
+                            <i class="fa-solid fa-download ms-2"></i> تحميل الملف
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div
+                        class="card bg-dark text-white border border-light border-opacity-10 h-100 p-4 rounded-4 text-center hover-shadow">
+                        <i class="fa-solid fa-file-pdf fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">أغلفة الكتب - الجزء الثالث</h5>
+                        <p class="text-white-50 small">ملف شامل لأغلفة إصدارات 2025</p>
+                        <a href="أغلفة الكتب د. مهران شامل ك 2025_20260219_161753_0000.pdf" download
+                            class="btn btn-outline-primary rounded-pill mt-auto">
+                            <i class="fa-solid fa-download ms-2"></i> تحميل الملف
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div
+                        class="card bg-dark text-white border border-light border-opacity-10 h-100 p-4 rounded-4 text-center hover-shadow">
+                        <i class="fa-solid fa-file-pdf fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">أغلفة الكتب - الجزء الرابع</h5>
+                        <p class="text-white-50 small">ملف شامل لأغلفة إصدارات 2025</p>
+                        <a href="أغلفة الكتب د. مهران شامل ك 2025_20260219_161823_0000.pdf" download
+                            class="btn btn-outline-primary rounded-pill mt-auto">
+                            <i class="fa-solid fa-download ms-2"></i> تحميل الملف
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-dark text-white text-end">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-lg-5 text-center text-lg-start mb-5 mb-lg-0">
+                    <h2 class="display-5 fw-bold">كن على <span class="text-primary">تواصل</span> دائم</h2>
+                    <p class="text-white-50 fs-5 mt-3">سواء للاستفسارات الأكاديمية أو التعاون الثقافي، يسعدني تواصلكم
+                        عبر هذا النموذج.</p>
+                    <div class="mt-4">
+                        <i class="fa-solid fa-envelope fa-2x text-primary"></i>
+                        <p class="mt-2 text-white-75 fw-bold shadow-lg text-primary"><a href="mailto:Mahran.bank@gmail.com" class="text-decoration-none">البريد الالكترني Mahran.bank@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form class="p-5 bg-black-50 rounded-4 shadow-lg border border-light border-opacity-10"
+                        action="mailto:Mahran.bank@gmail.com">
+                        <div class="mb-4">
+                            <label class="form-label text-white-75">الاسم الكامل</label>
+                            <input type="text" class="form-control bg-dark text-white border-secondary"
+                                placeholder="أدخل اسمك هنا">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label text-white-75">البريد الإلكتروني</label>
+                            <input type="email" class="form-control bg-dark text-white border-secondary"
+                                placeholder="email@example.com">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label text-white-75">الرسالة</label>
+                            <textarea class="form-control bg-dark text-white border-secondary" style="resize: none;"
+                                rows="5" placeholder="كيف يمكنني مساعدتك؟"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-primary w-100 py-3 rounded-pill fw-bold text-uppercase">إرسال
+                            الرسالة</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-black text-white py-5 mt-5 border-top border-light border-opacity-10">
+        <div class="container">
+            <div class="row g-4 text-center text-md-start">
+
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+                        <div class="logo-circle me-3">
+                            <img src="POrsonal.lpg.jpeg" alt="Logo" class="img-fluid rounded-circle">
+                        </div>
+                        <span class="brand-text fs-4 fw-bold">د. محمد مهران</span>
+                    </div>
+                    <p class="text-white-50">موقع رسمي مخصص لنشر الفكر والمعرفة الأدبية والثقافية.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="text-primary mb-3 fw-bold">روابط سريعة</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home"
+                                class="text-white text-decoration-none hover-primary">الرئيسية</a></li>
+                        <li class="mb-2"><a href="#About" class="text-white text-decoration-none hover-primary">عن
+                                الدكتور</a></li>
+                        <li class="mb-2"><a href="#books"
+                                class="text-white text-decoration-none hover-primary">الإصدارات</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-white text-decoration-none hover-primary">اتصل
+                                بنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="text-primary mb-3 fw-bold">تابعنا</h5>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 pt-4 border-top border-light border-opacity-10">
+                <p class="text-white-50 mb-0">&copy; 2026 جميع الحقوق محفوظة لـ <span class="text-primary">د. محمد
+                        مهران</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const typingTextElement = document.getElementById("heroTyping");
+            const phrases = [
+                "أستاذ محاضر",
+                "كاتب متخصص",
+                "باحث في الدراسات الثقافية",
+                "باحث في سعادة الإنسان",
+                "وصناعة الوعي الثقافي",
+                "صانع الفكر... وباحث في سعادة الإنسان وصناعة الوعي الثقتفي"
+            ];
+            let phraseIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+
+            function type() {
+                const currentPhrase = phrases[phraseIndex];
+
+                if (isDeleting) {
+                    typingTextElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typingTextElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+
+                let typeSpeed = isDeleting ? 100 : 120;
+
+                if (!isDeleting && charIndex === currentPhrase.length) {
+                    typeSpeed = 2000;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    phraseIndex = (phraseIndex + 1) % phrases.length;
+                    typeSpeed = 500;
+                }
+
+                setTimeout(type, typeSpeed);
+            }
+
+            type();
+        });
+    </script>
+
+    <canvas id="culturalCanvas"></canvas>
+    <script src="bootstrap.bundle.min.js"> </script>
+    <script src="mail.js"></script>
+
+</body>
+
+</html>
